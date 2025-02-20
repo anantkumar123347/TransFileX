@@ -1,0 +1,29 @@
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .maindiv h1 {
+    margin-left: 10vh;
+    font-weight: bold;
+    color: blueviolet;
+  }
+  
+  .smalldiv {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .smalldiv h3 {
+    margin-right: 10vh;
+  }
+  
+  .smalldiv h3:hover {
+    color: blueviolet;
+  }
+  .smalldiv h3.active {
+    color: blueviolet;
+    font-weight: bold;
+  }
+  
