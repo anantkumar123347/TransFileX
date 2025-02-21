@@ -1,29 +1,40 @@
 .maindiv {
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  }
-  
-  .maindiv h1 {
-    margin-left: 10vh;
-    font-weight: bold;
-    color: blueviolet;
-  }
-  
-  .smalldiv {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .smalldiv h3 {
-    margin-right: 10vh;
-  }
-  
-  .smalldiv h3:hover {
-    color: blueviolet;
-  }
-  .smalldiv h3.active {
-    color: blueviolet;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.maindiv h1 {
+  margin-left: 10vh;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+}
+
+.smalldiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.smalldiv h3 {
+  margin-right: 10vh;
+  font-size: 1.2rem;
+  color: white;
+  transition: color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.smalldiv h3:hover {
+  color: #d1c1ff;
+  transform: translateY(-2px);
+}
+
+.smalldiv h3.active {
+  color: #d1c1ff;
+  font-weight: bold;
+  text-decoration: underline;
+}
