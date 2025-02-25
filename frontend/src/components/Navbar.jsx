@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 
 function Navbar() {
   const navigate = useNavigate();
-  const location = useLocation(); // Get current location
+  const location = useLocation();
 
   return (
     <nav className='maindiv'>
@@ -13,7 +13,13 @@ function Navbar() {
           onClick={() => navigate('/home')}
           className={location.pathname === '/home' ? 'active' : ''}
         >
-          Home
+          Files
+        </h3>
+        <h3 
+          onClick={() => navigate('/images')}
+          className={location.pathname === '/images' ? 'active' : ''}
+        >
+          Images
         </h3>
         <h3 
           onClick={() => navigate('/about')}

@@ -2,13 +2,14 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-function AboutUs() {
+function Image() {
   return (
     <div>
-      <Navbar/>
-      <Footer/>
+        <Navbar/>
+        <h1>Images API's calling</h1>
+        <Footer/>
     </div>
   )
 }
 
-export default AboutUs
+export default Image

@@ -1,0 +1,21 @@
+.head-container {
+    padding: 30px;
+    background-color: #F4F0FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .blinking-text {
+    color: blueviolet;
+    animation: blink 2s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
