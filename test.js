@@ -6,4 +6,4 @@ function addNumbers(a, b) {
 }
 
 const result = addNumbers("5", 10) // Wrong input type: string + number
-console.log("Result:", result)
+console.log("Result:", result);
